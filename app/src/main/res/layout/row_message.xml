@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/profile_photo"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Full Name"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/profile_photo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:text="This is a text filed that can wrap across multiple lines of text and ellipsize at the end"
+        android:textSize="14sp"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:layout_toRightOf="@id/profile_photo"
+        android:layout_below="@+id/name"
+        android:textColor="@color/secondaryText"/>
+
+</RelativeLayout>

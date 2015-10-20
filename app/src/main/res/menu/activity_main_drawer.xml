@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_send_grey600_24dp"
+            android:title="Send Message"/>
+
+        <item
+            android:id="@+id/nav_add_contact"
+            android:icon="@drawable/ic_person_add_grey600_24dp"
+            android:title="Add Contact"/>
+
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_edit_grey600_24dp"
+            android:title="Edit Profile"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_grey600_24dp"
+            android:title="Logout"/>
+
+    </group>
+
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/menu_bottom">
+        <item
+            android:id="@+id/nav_account_settings"
+            android:icon="@drawable/ic_settings_grey600_24dp"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_insert_drive_file_with_pencil_grey600_24dp"
+            android:title="Feedback"/>
+    </group>
+
+
+
+
+</menu>
